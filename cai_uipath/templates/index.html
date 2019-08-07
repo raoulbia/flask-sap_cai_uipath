@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<base target="_blank">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css') }}" \
+	integrity="" \
+	crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/custom/sticky-footer-navbar.css') }}" >
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/vendor/jquery-3.1.1-dist.js') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js') }}" \
+	integrity="" \
+	crossorigin="anonymous">
+
+	<title>UiPath Chatbot</title>
+</head>
+<body>
+	
+	<script src="https://cdn.cai.tools.sap/webchat/webchat.js"
+	channelId="9604107d-1c0f-4ae4-8039-adb22b8f2eb4"
+	token="03cb7b753afd464fbe5e20a25d81ae14"
+	id="cai-webchat"></script>
+	<div class="container">
+		<div class="row">
+			<h1>SAP CAI Chatbot with UiPath Integration</h1>
+			<p>PoC UiPath Integration with Flask-Powere SAP Conversational AI Chatbot.<br>
+			This chatbot allows users to search for products on Amazon. The chatbot will return a list of <br>
+			the top 10 results retrieved from Amazon.
+			This chatbot has been implemented using the <a href="https://cai.tools.sap/">
+			SAP Conversational AI</a> platform and the Python Flask web framework. <br>
+			The Flask application is <a href="https://github.com/raoulbia/sap_cai_uipath.git">hosted on github</a>.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
